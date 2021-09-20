@@ -1,36 +1,45 @@
 .homepage-image-wrapper {
+    margin: 0px;
     height: 600px;
     overflow: hidden;
     position: relative;
     text-align: center;
     color: white;
-    margin-bottom: 100px;
+    clip-path: ellipse(100% 600px at 50% 0%);
+    
 
 
     img {
         object-fit: cover;
         height: 600px;
-
+        width: 100%;
+        padding: 0px;
     }
 
     .image-text-overlay {
         position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 100%;
         bottom: 0px;
-        background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+        background:linear-gradient(0deg, #00000088 20%, #ffffff44 100%);
 
         .overlay-text-wrapper {
-            position: absolute;
             display: flex;
             justify-content: space-between;
-            bottom: 50px;
-            left: 80px;
             height: 200px;
             width: 30%;
 
+
+
             button {
-                background-image: linear-gradient(to left top, #343639, #3e4144, #494c50, #54575c, #5f6368);
-                border: 2px grey solid;
+                background: rgba(255, 255, 255, 0.2);
+                box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+                backdrop-filter: blur(11.2px);
+                -webkit-backdrop-filter: blur(11.2px);
+                border-radius: 10px;
+                border: none;
                 border-radius: 100px;
             }
         }

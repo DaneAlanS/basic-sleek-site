@@ -1,6 +1,44 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.why-us {
+    margin-top: 40px;
+    height: 250px;
+    padding: 0px 20px 0px 20px;
+}
+
+.why-us-col {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fas {
+    font-size: 50px;
+}
+
 .text-content-wrapper {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin: 0px;
+    margin-top: 50px;
+
+
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        max-height: 400px;
+        border-radius: 50px;
+        -webkit-box-shadow: 20px 20px 25px 26px rgba(0, 0, 0, 0.51);
+        box-shadow: 20px 20px 25px 26px rgba(0, 0, 0, 0.51);
+
+    }
 }
