@@ -1,0 +1,38 @@
+.homepage-image-wrapper {
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+
+
+    img {
+        object-fit: cover;
+        height: 600px;
+
+    }
+
+    .image-text-overlay {
+        position: absolute;
+        height: 100%;
+        bottom: 0px;
+        background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+
+        .overlay-text-wrapper {
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            bottom: 50px;
+            left: 80px;
+            height: 200px;
+            width: 30%;
+
+            button {
+                background-image: linear-gradient(to left top, #343639, #3e4144, #494c50, #54575c, #5f6368);
+                border: 2px grey solid;
+                border-radius: 100px;
+            }
+        }
+    }
+}

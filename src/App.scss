@@ -1,0 +1,10 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./style/NavigationBar.scss";
+@import "./style/HomePage.scss";
+@import "./style/HomePageContent.scss";
+
+.container-fluid {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
